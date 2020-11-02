@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MoneyLover</string>
+    <string name="nutDangKy">Lần đầu sử dụng Money Lover</string>
+    <string name="nutDangNhap">Đã sử dụng Money Lover</string>
+    <string name="dangKyEmail">Đăng kí bằng email</string>
+    <string name="dangNhapEmail">Đăng nhập bằng email</string>
+    <string name="tongTien">Tổng tiền:</string>
+    <string name="daTatToan">Đã tất toán:</string>
+</resources>

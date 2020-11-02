@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChiTietSoTietKiemActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Chi tiết sổ tiết kiệm"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewMaSo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Mã sổ:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewNganHang"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Ngân hàng:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewNgayGui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Ngày gửi:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewSoTienGui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Số tiền gửi:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewKyHan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Kỳ hạn:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewLaiSuat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Lãi suất:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewLaiSuatKhongKyHan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Lãi suất không kỳ hạn:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewTraLai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Trả lãi:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textViewKhiDenHan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Khi đến hạn:"
+        android:textSize="20dp" />
+</LinearLayout>

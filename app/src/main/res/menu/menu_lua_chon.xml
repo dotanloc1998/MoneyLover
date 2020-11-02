@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Sửa sổ" android:id="@+id/optionSuaSo" />
+    <item android:title="Gửi thêm" android:id="@+id/optionGuiThem" />
+    <item android:title="Rút tiền" android:id="@+id/optionRut" />
+</menu>

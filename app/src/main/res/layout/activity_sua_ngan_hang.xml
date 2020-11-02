@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuaNganHangActivity">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sửa ngân hàng"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/editTextMaNganHang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Mã ngân hàng:"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextTenNganHang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Tên ngân hàng:"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonSuaNganHang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sửa Ngân Hàng" />
+
+    <Button
+        android:id="@+id/buttonQuayLai"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Quay lại" />
+</LinearLayout>
